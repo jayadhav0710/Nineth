@@ -21,7 +21,7 @@ function App() {
 
   useEffect(() => {
     searchRecipes()
-  });
+  },[]);
 
   const handleSubmit = (event) => {
     event.preventDefault();
